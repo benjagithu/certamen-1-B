@@ -153,3 +153,73 @@ th { color: #a8e6cf; }
 .listas-habilidades { display: flex; gap: 20px; }
 .listas-habilidades article { flex: 1; }
 .listas-habilidades ul, .listas-habilidades ol { margin-left: 20px; line-height: 1.8; }
+.proyectos {
+    padding: 60px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.proyectos h2 {
+    text-align: center;
+    color: #a8e6cf;
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+}
+
+.subtitulo-proyectos {
+    text-align: center;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.proyecto-card {
+    background-color: #141414;
+    border-radius: 12px;
+    overflow: hidden;
+    border: 1px solid #222;
+    transition: transform 0.3s ease;
+}
+
+.proyecto-card:hover {
+    transform: translateY(-10px);
+    border-color: #a8e6cf;
+}
+
+.proyecto-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.proyecto-card figcaption {
+    padding: 20px;
+}
+
+.proyecto-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.proyecto-card p {
+    color: #cccccc;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.proyecto-card a {
+    color: #a8e6cf;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.proyecto-card a:hover {
+    text-decoration: underline;
+}
