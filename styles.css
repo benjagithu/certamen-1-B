@@ -125,3 +125,31 @@ aside {
 aside ul { list-style: none; }
 aside li { margin-bottom: 15px; border-bottom: 1px solid #222; padding-bottom: 10px; }
 aside strong { color: #a8e6cf; }
+.habilidades {
+    padding: 60px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.habilidades h2 { text-align: center; color: #a8e6cf; margin-bottom: 40px; }
+
+.tabla-habilidades {
+    background-color: #141414;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #222;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #cccccc;
+}
+
+th, td { padding: 15px; text-align: left; border-bottom: 1px solid #222; }
+th { color: #a8e6cf; }
+
+.listas-habilidades { display: flex; gap: 20px; }
+.listas-habilidades article { flex: 1; }
+.listas-habilidades ul, .listas-habilidades ol { margin-left: 20px; line-height: 1.8; }
